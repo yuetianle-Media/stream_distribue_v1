@@ -3,7 +3,7 @@ workspace:
   path: src/stream_distribute
 pipeline:
   build:
-    image: lee/centos7_dev_2:7.3.1611
+    image: yuetianle/centos7_dev:7.3.1611
     commands:
       - mkdir build 
       - cd build
