@@ -9,8 +9,3 @@ pipeline:
       - cd build
       - cmake ../
       - make
-  notify:
-    image: drillster/drone-email
-    host: stmp.163.com
-    username:shida23577
-    password:yuetianle88
