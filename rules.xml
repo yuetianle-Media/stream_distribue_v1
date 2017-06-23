@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rules>
+	<!-- 视频流地址 -->
+	<rule url="http://192.168.203.211:9006/hls/test.m3u8"> 
+		<dest_adrr ip="224.1.1.1" port="65002"></dest_adrr><!-- 转发地址信息1 -->
+		<dest_adrr ip="223.1.1.1" port="65003"></dest_adrr><!-- 转发地址信息2 -->
+	</rule>
+</rules>
