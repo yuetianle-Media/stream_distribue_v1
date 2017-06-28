@@ -15,7 +15,7 @@ SET(CMAKE_LIBRARY_PATH "${CMAKE_CURRENT_SOURCE_DIR}/extlib/curl/lib" "${CMAKE_CU
 
 set(CMAKE_CXX_COMPILER g++)
 add_compile_options(-std=c++11)
-OPTION(ENABLE_DEBUG "enable debug" ON)
+OPTION(ENABLE_DEBUG "enable debug" OFF)
 if(ENABLE_DEBUG STREQUAL ON)
     MESSAGE(STATUS "Enable Debug Build")
     SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -Os -pthread")
